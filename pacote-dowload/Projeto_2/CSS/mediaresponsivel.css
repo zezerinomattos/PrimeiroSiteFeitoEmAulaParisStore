@@ -1,0 +1,260 @@
+@media(max-width: 1046px){
+    .menu_principal{
+        width: 100%;
+        background-color: #252323;
+        height: 10vh;
+        line-height: 10vh;
+    }
+    main, .content{
+        margin: 0 auto;
+        width: 80%;
+        position: relative; 
+    }
+    .logo{
+        float: left;
+        padding: 1.6rem;
+        width: 40vw;
+    }
+    .redes_sociais ul li{
+        margin-left: 4.5rem;
+        display: inline-block;
+    }
+    .redes_sociais{
+        width: 44%;
+        float: right;
+    }
+    .hider_2 {
+        background-color: #fff;
+        width: 94%;
+        margin: 0 auto;
+        padding: 1.6rem;
+    }
+    .menu ul li{
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+        height: 3vh;
+        line-height: 3vh;
+    }
+    .menu ul li a{
+        font-size: 1.2rem;
+    }
+    .menu{
+        width: 55%;
+        float: left;
+    }
+    .busca input{
+        background-position: 94%;
+        height: 2.0rem;
+        padding-left: 1.2rem;
+       font-size: 1.2rem;
+    }
+    .texto_destaque h1{
+        font-size: 2rem;
+    }
+    .texto_destaque p{
+        font-size: 1.3rem;
+    }
+    main, .content{
+        margin: 0 auto;
+        width: 100%;
+        position: relative; 
+    }
+    .col-3{
+        text-align: center;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 27%;
+        float: left;
+        position: relative;
+    }
+    .stylee{
+        margin-left: 0%;
+    }
+    .bloco_logos{
+        height: 20vh;
+        width: 100vw;
+    }
+    .bloco_logos img{
+        margin-top: 1.5rem;
+        width: 15vw;
+    }
+    .col-4{
+        width: 22%;
+        padding-left: 1.5vw;
+    }
+    .footer{
+        width: 100vw;
+        height: 60vh;
+        
+    }
+    .texto_rodape{
+        margin-bottom: 0px;
+        padding-left: 2rem;
+        font-size: 1rem;
+    }   
+}
+@media(max-width: 788px){
+    .menu_principal{
+        width: 100vw;
+        height: 9vh;
+        line-height: 9vh;
+    }
+    main, .content{
+        margin: 0 auto;
+        width: 70%;
+        position: relative; 
+    }
+    .logo{
+        float: left;
+        padding: 1.6rem;
+        width: 40vw;
+        height: 3vh;
+    }
+    .redes_sociais{
+        width: 46%;
+        float: right;
+    }
+    .redes_sociais ul li{
+        margin-left: 4.5rem;
+        display: inline-block;
+    }
+    
+    .hider_2 {
+        background-color: #fff;
+        width: 94%;
+        height: 4vh;
+        margin: 0 auto;
+        padding: 1.6rem;
+    }
+    .menu ul li{
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+        height: 3vh;
+        line-height: 3vh;
+    }
+    .menu ul li a{
+        font-size: 1.1rem;
+    }
+    .menu{
+        width: 55%;
+        float: left;
+    }
+    .busca input{
+        background-position: 94%;
+        height: 2.0rem;
+        padding-left: 1.2rem;
+       font-size: 1.2rem;
+    }
+    .texto_destaque h1{
+        font-size: 2rem;
+    }
+    .texto_destaque p{
+        font-size: 1.3rem;
+    }
+    main, .content{
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+    }
+    .col-3{
+        text-align: center;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 28%;
+        float: left;
+        position: relative;
+    }
+    .stylee{
+        margin-left: 0%;
+    }
+    .bloco_logos{
+        height: 20vh;
+        width: 100vw;
+    }
+    .bloco_logos img{
+        margin-top: 1.5rem;
+    }
+    .col-4{
+        width: 22%;
+        padding-left: 2vw;
+    }
+    .footer{
+        width: 100vw;
+        height: 60vh;
+        
+    }
+    .texto_rodape{
+        margin-bottom: 0px;
+        padding-left: 2rem;
+        font-size: 1rem;
+    }
+}
+@media(max-width: 693px){
+    .logo {
+        float: left;
+        padding: 1.6rem;
+        width: 30vw;
+        height: 3vh;
+    }
+    .redes_sociais{
+        width: 60%;
+    }
+    .menu{
+        width: 80vw;
+    }
+    .busca{
+        display: none;
+    }
+    .primeira_img{
+       width: 17vw;
+       left: 14vw;
+    }
+    .stylee{
+        padding-left: 10rem;
+    }
+    .footer {
+        width: 100vw;
+        height: 70vh;
+    }
+}
+@media(max-width: 593px){
+    .redes_sociais{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .col-3{
+        float: none;
+        left: 39vw;
+    }
+    .stylee {
+        padding-left: 0px;
+    }
+    .one, 
+    .two, 
+    .three{
+        background-color: rgb(61, 38, 38);
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.35;
+    }
+    .hider_2{
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    .menu_urls .on{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgb(41, 38, 38);
+        width: 100vw;
+        height: 100vh;
+        z-index: 10;
+    }
+    .menu_urls .on .menu{
+        display: block;
+    }
+}
